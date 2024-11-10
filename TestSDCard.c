@@ -3,8 +3,7 @@
 #include "hw_config.h"
 #include "f_util.h"
 #include "ff.h"
-//#include "ffconf.h"
-//#include "sd_card.h"
+#include "ffconf.h"
 
 // SPI Defines
 // We are going to use SPI 0, and allocate it to the following GPIO pins
