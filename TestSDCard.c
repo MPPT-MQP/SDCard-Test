@@ -46,7 +46,7 @@ int main()
     if (FR_OK != fr && FR_EXIST != fr) {
         panic("f_open(%s) error: %s (%d)\n", filename, FRESULT_str(fr), fr);
     }
-    if (f_printf(&fil, "Hello, world - 2!\nNew row?, yay") < 0) {
+    if (f_printf(&fil, "Hello, world - 2!\nNew row?, yay\n") < 0) {
         printf("f_printf failed\n");
     }
 
